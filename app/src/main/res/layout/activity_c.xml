@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cactivity_background"
+    android:gravity="center"
+    tools:context=".ActivityC">
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_activitya"
+        android:textColor="@color/white"
+        style="@style/button_style"
+        android:id="@+id/open_activitya"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_activityd"
+        android:textColor="@color/white"
+        style="@style/button_style"
+        android:id="@+id/open_activityd"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/close_activityc"
+        android:textColor="@color/white"
+        style="@style/button_style"
+        android:id="@+id/close_activityc"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/close_stack"
+        android:textColor="@color/white"
+        style="@style/button_style"
+        android:id="@+id/close_stack"/>
+</LinearLayout>
